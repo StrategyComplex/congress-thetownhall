@@ -1,5 +1,4 @@
-import bill_info
-
+import congress.tasks.bill_info as bill_info
 
 def open_bill(bill_id):
     return open("test/fixtures/bills/%s/information.html" % bill_id).read()

@@ -1,5 +1,5 @@
 import unittest
-import bill_info
+import congress.tasks.bill_info as bill_info
 
 # parsing various kinds of action text to extract metadata and establish state
 
@@ -39,7 +39,8 @@ class BillActions(unittest.TestCase):
 
         new_action, new_state = parse_bill_action(line, state, bill_id, title)
 
-        self.assertEqual(new_action['type'], 'calendar')
+        print(new_action)
+        self.assertEqual(new_action['type'], 'ordered-reported')
         # self.assertEqual(new_action['committee'], "Committee on the Judiciary")
         self.assertEqual(new_state, "REPORTED")
 

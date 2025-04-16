@@ -58,7 +58,7 @@ The general form to start the scraping process is:
 
 where data-type is one of:
 
-* `bills` (see [Bills](https://github.com/unitedstates/congress/wiki/bills)) and [Amendments](https://github.com/unitedstates/congress/wiki/amendments))
+* `bills` (see [Bills](https://github.com/unitedstates/congress/wiki/bills) and [Amendments](https://github.com/unitedstates/congress/wiki/amendments))
 * `votes` (see [Votes](https://github.com/unitedstates/congress/wiki/votes))
 * `nominations` (see [Nominations](https://github.com/unitedstates/congress/wiki/nominations))
 * `committee_meetings` (see [Committee Meetings](https://github.com/unitedstates/congress/wiki/committee-meetings))
